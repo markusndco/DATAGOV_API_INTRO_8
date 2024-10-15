@@ -1,0 +1,29 @@
+﻿@model List<DATAGOV_API_INTRO_8.Models.Park>
+
+@{
+    ViewData["Title"] = "National Parks";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Park Code</th>
+            <th>Full Name</th>
+            <th>Description</th>
+            <th>Location (Lat/Long)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var park in Model)
+        {
+            <tr>
+                <td>@park.parkCode</td>
+                <td>@park.fullName</td>
+                <td>@park.description</td>
+                <td>@park.latLong</td>
+            </tr>
+        }
+    </tbody>
+</table>
