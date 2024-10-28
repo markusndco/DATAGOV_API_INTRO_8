@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DATAGOV_API_INTRO_8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+140d69504c18617153ac5972c2ba39cd363d08f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DATAGOV_API_INTRO_8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DATAGOV_API_INTRO_8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

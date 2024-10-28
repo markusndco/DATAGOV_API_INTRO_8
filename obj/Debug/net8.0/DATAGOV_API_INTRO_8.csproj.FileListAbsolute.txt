@@ -31,3 +31,4 @@
 /Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.pdb
 /Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.genruntimeconfig.cache
 /Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/ref/DATAGOV_API_INTRO_8.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.sourcelink.json

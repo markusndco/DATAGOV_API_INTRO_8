@@ -1,18 +1,16 @@
 ﻿@model List<DATAGOV_API_INTRO_8.Models.Park>
 
-@{
-    ViewData["Title"] = "National Parks";
-}
+<h2>National Parks</h2>
+<a asp-action="Create" class="btn btn-primary">Add New Park</a>
 
-<h2>@ViewData["Title"]</h2>
-
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>Park Code</th>
             <th>Full Name</th>
             <th>Description</th>
             <th>Location (Lat/Long)</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -23,6 +21,10 @@
                 <td>@park.fullName</td>
                 <td>@park.description</td>
                 <td>@park.latLong</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@park.id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@park.id" class="btn btn-danger">Delete</a>
+                </td>
             </tr>
         }
     </tbody>

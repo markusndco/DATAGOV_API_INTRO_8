@@ -1,0 +1,18 @@
+@model DATAGOV_API_INTRO_8.Models.Park
+
+<h2>Delete Park</h2>
+<p>Are you sure you want to delete this park?</p>
+
+<div>
+    <h4>@Model.fullName</h4>
+    <p>Park Code: @Model.parkCode</p>
+    <p>Description: @Model.description</p>
+    <p>Location: @Model.latLong</p>
+</div>
+
+<!-- The form posts to the same action to handle the delete -->
+<form method="post">
+    <input type="hidden" asp-for="id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

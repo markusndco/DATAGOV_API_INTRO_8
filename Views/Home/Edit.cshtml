@@ -1,0 +1,29 @@
+@model DATAGOV_API_INTRO_8.Models.Park
+
+<h2>Edit Park</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="id" />
+    <div class="form-group">
+        <label>Full Name</label>
+        <input asp-for="fullName" class="form-control" />
+        <span asp-validation-for="fullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Park Code</label>
+        <input asp-for="parkCode" class="form-control" />
+        <span asp-validation-for="parkCode" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <textarea asp-for="description" class="form-control"></textarea>
+        <span asp-validation-for="description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Lat/Long</label>
+        <input asp-for="latLong" class="form-control" />
+        <span asp-validation-for="latLong" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
